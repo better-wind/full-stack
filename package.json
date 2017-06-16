@@ -1,0 +1,30 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "edit full stack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luyi10year/full-stack.git"
+  },
+  "keywords": [
+    "vue",
+    "node",
+    "full-stack"
+  ],
+  "author": "fenghou",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luyi10year/full-stack/issues"
+  },
+  "homepage": "https://github.com/luyi10year/full-stack#readme",
+  "devDependencies": {
+    "express": "^4.15.3",
+    "express-http-proxy": "^1.0.3",
+    "http-proxy": "^1.16.2",
+    "mongodb": "^2.2.28"
+  }
+}
