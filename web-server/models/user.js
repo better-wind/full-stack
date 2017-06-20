@@ -76,7 +76,7 @@ User.get = function(name){
            .then((user)=>{
                resolve && resolve(user)
            }).catch((err)=>{
-                mongodb.close();
+               mongodb.close();
                console.log(err)
            })
    })

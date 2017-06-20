@@ -45,7 +45,7 @@ export default {
       url: '/sellerAdmin/reg',
       headers: {'Content-Type': 'application/x-www-form-urlencoded'},
       data:formData({
-        name:'aaaa',
+        name:'aaa',
         password:'bbb'
       })
     }

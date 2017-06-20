@@ -2,37 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5b8ea9c6-8dec-428c-bdbb-a0291a24e624" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-server/dev-server.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-server/models/user.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-server/models/userApp.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-server/modules/db.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-server/modules/db_setting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-server/server/app_dev.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/src/assets/js/common/fetch.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/src/assets/js/study/loopEvent.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/src/assets/js/study/object.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/src/assets/js/study/promise.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/src/components/common/Footer.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/src/components/common/Header.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/src/components/common/Home.vue" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/src/vuex/actions.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/src/vuex/actions/base.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/src/vuex/index.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/src/vuex/mutations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/src/vuex/state.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-view/static/data/activity.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-view/src/assets/logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/web-view/src/components/Hello.vue" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-server/controller/user.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-server/service/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-server/server/app.js" afterPath="$PROJECT_DIR$/web-server/server/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-view/config/index.js" afterPath="$PROJECT_DIR$/web-view/config/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-view/index.html" afterPath="$PROJECT_DIR$/web-view/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-view/package.json" afterPath="$PROJECT_DIR$/web-view/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-view/src/App.vue" afterPath="$PROJECT_DIR$/web-view/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-view/src/main.js" afterPath="$PROJECT_DIR$/web-view/src/main.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-view/src/router/index.js" afterPath="$PROJECT_DIR$/web-view/src/router/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-server/models/user.js" afterPath="$PROJECT_DIR$/web-server/models/user.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-server/models/userApp.js" afterPath="$PROJECT_DIR$/web-server/models/userApp.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web-view/src/vuex/actions.js" afterPath="$PROJECT_DIR$/web-view/src/vuex/actions.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -49,14 +24,14 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.42482516">
+    <splitter split-orientation="horizontal" split-proportion="0.41529152">
       <split-first>
         <leaf>
           <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web-server/models/user.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="78" column="16" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+                <state relative-caret-position="351">
+                  <caret line="78" column="15" lean-forward="false" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
                   <folding>
                     <element signature="e#204#1009#0" expanded="false" />
                     <element signature="e#372#431#0" expanded="false" />
@@ -79,8 +54,8 @@
           <file leaf-file-name="actions.js" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/web-view/src/vuex/actions.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="348">
-                  <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+                <state relative-caret-position="429">
+                  <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
                   <folding>
                     <element signature="e#68#446#0" expanded="false" />
                     <element signature="e#481#510#0" expanded="false" />
@@ -91,12 +66,25 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/.gitignore">
+          <file leaf-file-name="userApp.js" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/web-server/models/userApp.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="162">
-                  <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+                <state relative-caret-position="108">
+                  <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
                   <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web-server/service/user.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="54">
+                  <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+                  <folding>
+                    <element signature="e#141#214#0" expanded="false" />
+                    <element signature="e#266#478#0" expanded="false" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -105,11 +93,11 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="dev-server.js" pinned="false" current-in-tab="false">
+          <file leaf-file-name="dev-server.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/web-server/dev-server.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+                <state relative-caret-position="324">
+                  <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
                   <folding>
                     <element signature="e#267#538#0" expanded="false" />
                   </folding>
@@ -117,11 +105,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="userApp.js" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/web-server/models/userApp.js">
+          <file leaf-file-name="user.js" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/web-server/controller/user.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="188">
-                  <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+                <state relative-caret-position="54">
+                  <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="31" />
                   <folding />
                 </state>
               </provider>
@@ -168,10 +156,12 @@
         <option value="$PROJECT_DIR$/web-server/modules/user.js" />
         <option value="$PROJECT_DIR$/web-server/modules/db_setting.js" />
         <option value="$PROJECT_DIR$/web-server/dev-server.js" />
-        <option value="$PROJECT_DIR$/web-view/src/vuex/actions.js" />
-        <option value="$PROJECT_DIR$/web-server/models/userApp.js" />
-        <option value="$PROJECT_DIR$/web-server/models/user.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/web-server/models/user.js" />
+        <option value="$PROJECT_DIR$/web-server/models/userApp.js" />
+        <option value="$PROJECT_DIR$/web-view/src/vuex/actions.js" />
+        <option value="$PROJECT_DIR$/web-server/controller/user.js" />
+        <option value="$PROJECT_DIR$/web-server/service/user.js" />
       </list>
     </option>
   </component>
@@ -223,6 +213,74 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="full-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="full-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="full-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="full-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="full-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="service" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="full-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="full-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="full-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="full-stack" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="web-server" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -324,24 +382,24 @@
       <option name="presentableId" value="Default" />
       <updated>1497427277178</updated>
       <workItem from="1497427278489" duration="16938000" />
-      <workItem from="1497836177733" duration="34307000" />
+      <workItem from="1497836177733" duration="35318000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51245000" />
+    <option name="totallyTimeSpent" value="52256000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="32" width="1936" height="1056" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12908325" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04214963" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4864572" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47995666" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -663,16 +721,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-server/dev-server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding>
-            <element signature="e#267#538#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web-server/server/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -707,18 +755,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-server/models/userApp.js">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="10" column="25" lean-forward="true" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+        <state relative-caret-position="162">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web-server/models/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="78" column="16" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="16" />
+        <state relative-caret-position="351">
+          <caret line="78" column="15" lean-forward="false" selection-start-line="78" selection-start-column="15" selection-end-line="78" selection-end-column="15" />
           <folding>
             <element signature="e#204#1009#0" expanded="false" />
             <element signature="e#372#431#0" expanded="false" />
@@ -729,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web-view/src/vuex/actions.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="47" column="18" lean-forward="false" selection-start-line="47" selection-start-column="18" selection-end-line="47" selection-end-column="18" />
+        <state relative-caret-position="429">
+          <caret line="47" column="17" lean-forward="false" selection-start-line="47" selection-start-column="17" selection-end-line="47" selection-end-column="17" />
           <folding>
             <element signature="e#68#446#0" expanded="false" />
             <element signature="e#481#510#0" expanded="false" />
@@ -740,11 +788,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/web-server/controller/user.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="54">
+          <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="31" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-server/service/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="23" lean-forward="false" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+          <folding>
+            <element signature="e#141#214#0" expanded="false" />
+            <element signature="e#266#478#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-server/models/userApp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web-server/dev-server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="10" lean-forward="false" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
+          <folding>
+            <element signature="e#267#538#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
