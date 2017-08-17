@@ -3,7 +3,7 @@ import Router from 'vue-router';
 
 Vue.use(Router);
 
-const Home = resolve => require(['@/components/common/Home'], resolve),
+const Home = resolve => require(['@/pages/Home/Home'], resolve),
       Color = resolve => require(['@/pages/color/color'], resolve),
       Love = resolve => require(['@/pages/love/love'], resolve)
 

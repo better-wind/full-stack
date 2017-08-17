@@ -1,16 +1,21 @@
 <template>
-  <div id="ui">
-    <div class="love" v-for="item in wordsList">
-      <div class="love_horizontal">
-        <div class="love_vertical">
-          <div class="love_word">{{item}}</div>
+  <div>
+    <div id="ui">
+      <div class="love" v-for="item in wordsList">
+        <div class="love_horizontal">
+          <div class="love_vertical">
+            <div class="love_word">{{item}}</div>
+          </div>
         </div>
       </div>
     </div>
+    <dance-robot />
   </div>
+
 
 </template>
 <script>
+  import danceRobot from '@/components/dance/dance'
   export default{
     created(){
       this.initView()
@@ -22,6 +27,9 @@
       initView(){
 
       }
+    },
+    components:{
+      danceRobot
     }
   }
 </script>
