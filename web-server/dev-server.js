@@ -6,8 +6,8 @@ var app = require('express')()
 var router = require('./models/userApp')
 app.use(session({
     secret: settings.cookieSecret,
-    key: settings.db,//cookie name
-    cookie: {maxAge: 1000 * 60 * 60 * 24 * 30},//30 days
+    key: settings.db,
+    cookie: {maxAge: 1000 * 60 * 60 * 24 * 30},
     store: new Store({
         db: settings.db,
         host: settings.host,

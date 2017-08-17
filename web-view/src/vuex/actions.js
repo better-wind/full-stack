@@ -24,7 +24,6 @@ const fetch = (commit,opts,fn)=>{
 const startLoading = (commit,rs)=>{
   console.log('start...')
 }
-
 const endLoading = (commit,rs)=>{
   console.log('end...')
 }

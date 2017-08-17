@@ -3,7 +3,9 @@ import Router from 'vue-router';
 
 Vue.use(Router);
 
-const Home = resolve => require(['@/components/common/Home'], resolve)
+const Home = resolve => require(['@/components/common/Home'], resolve),
+      Color = resolve => require(['@/pages/color/color'], resolve),
+      Love = resolve => require(['@/pages/love/love'], resolve)
 
 export default new Router({
   routes: [
@@ -11,6 +13,16 @@ export default new Router({
       path: '/',
       name: 'Home',
       component: Home,
+    },
+    {
+      path: '/color',
+      name: 'Color',
+      component: Color,
+    },
+    {
+      path: '/love',
+      name: 'love',
+      component: Love,
     },
   ],
 });
