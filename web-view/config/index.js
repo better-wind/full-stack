@@ -34,6 +34,13 @@ module.exports = {
         pathRewrite: {
           '^/sellerAdmin': '/sellerAdmin'
         }
+      },
+      '/nateAPI/': {
+        target: 'http://localhost:4000',
+        changeOrigin: true,
+        pathRewrite: {
+          '^/nateAPI/': '/nateAPI/'
+        }
       }
     },
     // CSS Sourcemaps off by default because relative paths are "buggy"

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="app">
+    {{message}}
+    <demo-temp :link="link"></demo-temp>
+    <c-demo :link="link"></c-demo>
+    <nc-demo :link="link"></nc-demo>
+    <demo-script :link="link"></demo-script>
+</div>
+
+<script src="vue.js"></script>
+<script type="text/x-template" id="script-template">
+    <div>script-template{{a}}</div>
+</script>
+<script>
+    Vue.component('demo-temp',{
+        template:'<div>demo-temp{{b}}</div>',
+        data:()=>({
+            b:'joijoikj'
+        }),
+        props:{
+            link:String
+        },
+        created(){
+          console.log('demo-temp'+this.link)
+        },
+    })
+    Vue.component('demo-script',{
+        template:'#script-template',
+        data:()=>({
+            a:'teeee'
+        }),
+        props:{
+            link:String
+        },
+        created(){
+            console.log('demo-script'+this.link)
+        },
+    })
+    var cTemp = {
+        template:'<div>c-temp{{c}}</div>',
+        data:()=>({
+            c:'k'
+        }),
+        props:{
+            link:String
+        },
+        created(){
+            console.log('c-temp'+this.link)
+        },
+
+    }
+    var ncTemp = {
+        template:'#script-template',
+        data:()=>({
+            a:'k'
+        }),
+        props:{
+            link:String
+        },
+        created(){
+            console.log('ncTemp'+this.link)
+        },
+    }
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'abc',
+            link:'我要飞'
+        },
+        created(){
+
+        },
+        filters:{
+            transCode:(s)=>{
+                return 'kkk'
+            }
+        },
+        components:{
+            'c-demo':cTemp,
+            'nc-demo':ncTemp
+        }
+    })
+    console.log(app)
+</script>
+</body>
+</html>

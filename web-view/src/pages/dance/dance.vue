@@ -38,7 +38,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    /*background:#000;*/
+    background:#000;
     cursor: pointer;
   }
 </style>
