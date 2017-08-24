@@ -1,6 +1,10 @@
 @import "reset";
 @import "config";
 
+body{
+  //background-color: rgba(255,204,153,.8);
+  background-color: rgba(153,204,153,.4);
+}
 #app{
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;

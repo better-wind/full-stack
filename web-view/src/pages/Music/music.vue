@@ -1,7 +1,10 @@
 <template>
   <div class="music-box">
+    <div class="block-box sign-box">
+      Play play ...
+    </div>
     <div class="block-box search-box">
-      <input type="text" placeholder="搜索歌曲" v-model="searchParams.name" @input="callSearch">
+      <input type="text" placeholder="Search..." v-model="searchParams.name" @input="callSearch">
     </div>
     <div class="result-box" @scroll="onScroll($event)">
       <div v-for="(item,key) in searchOpt.songs" @click="callSongDetail(item.id)">
@@ -10,7 +13,7 @@
       </div>
     </div>
     <div v-if="playerConfig.isShow" class="player-box">
-      <audio controls="controls" :src="playerConfig.src"></audio>
+      <audio ref="audioPlay" controls="controls" :src="playerConfig.src"></audio>
     </div>
   </div>
 </template>
@@ -50,9 +53,16 @@
 
       },
       callSongDetail(id){
-        let _opt = {
-            id
-        }
+//        let _opt = {
+//            id
+//        }
+        this.$router.push({
+          name:'Song',
+          query:{
+              id
+          }
+        })
+        return false
         this.getSongUrl(_opt)
           .then((rs)=>{
             this.playerConfig.src = rs[0].url
@@ -116,36 +126,46 @@
   .music-box{
     width: remChange(750);
     font-size: 14px;
+    >.sign-box{
+      width: remChange(750);
+      height: remChange(60);
+      line-height: remChange(60);
+      text-align: center;
+      //background-color: rgba(0,204,255,.9);
+    }
     >.search-box{
       width: remChange(500);
-      margin: remChange(60) auto;
+      margin: remChange(10) auto remChange(50);
       >input{
         width: remChange(500);
+        appearance:none;
         line-height: remChange(60);
         font-size: remChange(28);
+        color: rgba(0,204,255,.9);
         text-indent: 10px;
-        border: 1px solid #87cEFA;
+        /*background-color:rgba(255,255,153,.5);*/
+        /*border: 1px solid rgba(255,255,153,1);*/
+        border: 1px solid rgba(153,204,153,1);
         border-radius: 4px;
       }
     }
     >.result-box{
       width: remChange(710);
       margin: 0 auto;
-      height: remChange(1330-60*3);
+      height: remChange(1020);
       overflow-y:scroll;
+      border-bottom: 1px solid #000;
       >div{
-        padding: 8px 0 0 0;
+        padding: 8px 0;
         transition: all linear 300ms;
-        &:hover{
-          background-color: rgba(135,206,250,.1);
-        }
+        border-top: 1px solid rgba(153,204,153,.5);
         >p{
           font-size: 12px;
-          color:#999;
+          color:rgba(153,204,153,.9);
           &:first-child{
             margin-bottom: 2px;
             font-size: 15px;
-            color: #666;
+            color: rgba(0,204,255,.9);
           }
         }
       }

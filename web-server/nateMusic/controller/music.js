@@ -13,6 +13,9 @@ module.exports = {
     songUrl: function(req,res){
         musicService.songUrl(req,res)
     },
+    picUrl: function(req,res){
+        musicService.picUrl(req,res)
+    },
 }
 // exports.search = function(req,res){
 //     musicService.search(req,res)

@@ -45,7 +45,17 @@ module.exports = {
         netease.url(id).then( data => {
             res.send(data)
         })
-    }
+    },
+    picUrl:function(req,res){
+        const id = req.body.id
+        netease.picture(id).then( data => {
+            let _data = {
+               code:200,
+               data:data
+            }
+            res.send(_data)
+        })
+    },
 }
 // exports.search = function(req,res){
 //     const name = req.body.name,

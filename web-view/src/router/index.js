@@ -7,7 +7,8 @@ const Home = resolve => require(['@/pages/Home/Home'], resolve),
       Color = resolve => require(['@/pages/color/color'], resolve),
       Love = resolve => require(['@/pages/love/love'], resolve),
       Dance = resolve => require(['@/pages/dance/dance'], resolve),
-      Music = resolve => require(['@/pages/Music/music'], resolve)
+      Music = resolve => require(['@/pages/Music/music'], resolve),
+      Song = resolve => require(['@/pages/Music/song'], resolve)
 
 export default new Router({
   routes: [
@@ -35,6 +36,11 @@ export default new Router({
       path: '/Music',
       name: 'Music',
       component: Music,
+    },
+    {
+      path: '/Song',
+      name: 'Song',
+      component: Song,
     },
   ],
 });

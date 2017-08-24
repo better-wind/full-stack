@@ -36,5 +36,14 @@ export default {
       data:baseActions.formData(rs)
     }
     return baseActions.fetch(commit,opts)
+  },
+  getPicUrl({commit},rs){
+    const opts = {
+      url:'/nateAPI/picUrl',
+      method:'POST',
+      headers: {'Content-Type': 'application/x-www-form-urlencoded'},
+      data:baseActions.formData(rs)
+    }
+    return baseActions.fetch(commit,opts)
   }
 }
