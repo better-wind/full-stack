@@ -35,5 +35,9 @@ const setToast = (commit,rs)=>{
 }
 export default {
   fetch:fetch,
-  formData:formData
+  formData:formData,
+  actionDemo({dispatch,commit},rs){
+    console.log('demo A')
+    dispatch('dispatchDemo')
+  },
 }
